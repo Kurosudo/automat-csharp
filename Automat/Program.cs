@@ -23,7 +23,7 @@ namespace Automat
             if (start.Key == ConsoleKey.Enter)
             {
                 
-                for (long i = 1; i > 0; i++)
+                while (1 == 1)
                 {
                     Console.Clear();
                     Roll();
@@ -66,7 +66,7 @@ namespace Automat
             {
                 Console.WriteLine("You lose all your money. I hope you are happy now. Your child is sick, wife without money and you lose everything. Shame on you!");
 
-                for (long a = 1; a > 0; a++)
+                while (1 == 1)
                 { 
                 Console.ReadKey();
                 }
